@@ -1737,7 +1737,7 @@
 
     </div>
 </div>
-
+<script type="text/javascript" src="./plugins/jquery-3.4.1.min.js"></script>
 <script>
     var buyCarMethod = 0,
         payRatio = 0.3,
@@ -1768,7 +1768,8 @@
         cshhxBfArr2 = [850, 1100, 1500, 2250],
         BLinkStatus = 0,
         browserCore = null;
-    _loader.use("jquery", function () {
+
+    (function () {
 
         var getQueryString = function (name) {
             return $("input[name=" + name + "]").val();
@@ -2119,7 +2120,7 @@
             loanRateDiscount = 1;
             $("#rate_discount_select").change()
         })
-    });
+    })();
 
     function insr_config(a) {
         insr_checkbox("szx", !0);
