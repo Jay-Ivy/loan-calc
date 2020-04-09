@@ -1,0 +1,2456 @@
+<!-- 第三方提供的代码片段Start -->
+<style>
+    #mohe-obo_cdjsq360jie div,
+    #mohe-obo_cdjsq360jie span,
+    #mohe-obo_cdjsq360jie label,
+    #mohe-obo_cdjsq360jie table,
+    #mohe-obo_cdjsq360jie tbody,
+    #mohe-obo_cdjsq360jie tfoot,
+    #mohe-obo_cdjsq360jie thead,
+    #mohe-obo_cdjsq360jie tr,
+    #mohe-obo_cdjsq360jie th,
+    #mohe-obo_cdjsq360jie td {
+        border: 0;
+        margin: 0;
+        outline: 0;
+        padding: 0;
+        color: #333;
+        font-size: 13px;
+        font-family: '宋体', Arail;
+    }
+
+    #mohe-obo_cdjsq360jie i {
+        font-style: normal;
+    }
+
+    #mohe-obo_cdjsq360jie a {
+        color: black;
+        text-decoration: none;
+    }
+
+    #mohe-obo_cdjsq360jie li,
+    #mohe-obo_cdjsq360jie a {
+        overflow: hidden;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-clear {
+        clear: both;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-line {
+        padding: 5px 0 5px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-line span {
+        display: inline-block;
+        width: 65px;
+        line-height: 22px;
+        text-align: left;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-line label {
+        line-height: 18px;
+    }
+
+    #mohe-obo_cdjsq360jie input,
+    #mohe-obo_cdjsq360jie button,
+    #mohe-obo_cdjsq360jie select,
+    #mohe-obo_cdjsq360jie textarea {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_box {
+        display: inline-block;
+        padding: 2px 4px;
+        margin-right: 7px;
+        font-size: 12px;
+        color: #555;
+        vertical-align: middle;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 1px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_box:focus {
+        border-color: #66afe9;
+        outline: 0;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_box[disabled],
+    #mohe-obo_cdjsq360jie .mh-input_box[readonly] {
+        background-color: #F6F6F6;
+        cursor: default;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-calculator_canvas {
+        display: inline-block;
+        width: 100%;
+        background: #F5F5F5;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-calculator {
+        width: 535px;
+        margin: 0 auto;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-calc_page {
+        width: 533px;
+        min-height: 250px;
+        margin: 0;
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06);
+        -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06);
+        -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06);
+    }
+
+    #mohe-obo_cdjsq360jie .mh-calc_header {
+        width: 533px;
+        height: 35px;
+        padding: 0px;
+        border-bottom: solid 1px #e5e5e5;
+        background: #f8f8f8;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-calc_header .mh-tab {
+        display: inline-block;
+        float: left;
+        width: 110px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        font-size: 13px;
+        letter-spacing: 0.6px;
+        color: #666;
+        border: 0;
+        border-right: 1px solid #e5e5e5;
+        cursor: pointer;
+        -ms-user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-calc_header .mh-tab.mh-select_tab {
+        height: 34px;
+        margin-top: -1px;
+        color: #1cbc44;
+        font-weight: bold;
+        border-top: 2px solid #1cbc44;
+        border-bottom: solid 1px #fff;
+        background: #fff;
+        cursor: default;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-calc_header .mh-tab.mh-normal_tab {}
+
+    #mohe-obo_cdjsq360jie .mh-calc_body {
+        width: 528px;
+        min-height: 100px;
+        padding: 5px 5px 5px 5px;
+        overflow: auto;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form {
+        float: left;
+        width: 450px;
+        padding-top: 8px;
+        padding-left: 10px;
+        padding-bottom: 0px;
+        background: #FFF;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form #city_select {
+        cursor: pointer;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form #city_select i {
+        color: #65778A;
+        text-decoration: underline;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form .mh-line label.mh-seats_select {
+        margin-left: 2px;
+        *margin-left: 0px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form .mh-line label i {
+        line-height: 15px;
+        font-size: 13px;
+        _font-size: 14px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form .mh-line i.mh-warning_text {
+        display: none;
+        padding-left: 5px;
+        margin-left: 2px;
+        line-height: 18px;
+        _font-size: 14px;
+        color: #FF2929;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form .mh-line label input#seats_radio1 {
+        margin-left: 0;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form .mh-line label input.mh-seats_radio {
+        margin-right: 4px;
+        *margin-right: 0px;
+        vertical-align: text-top;
+        margin-top: 1px;
+        *margin-top: -4px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form .mh-line a.mh-link_1 {
+        *display: inline-block;
+        margin-left: 7px;
+        line-height: 15px;
+        *line-height: 14px;
+        font-size: 13px;
+        *font-size: 12px;
+        color: blue;
+        text-decoration: none;
+    }
+
+    /* #6699FF */
+    #mohe-obo_cdjsq360jie .mh-input_form .mh-line a.mh-link_1:hover {
+        color: blue;
+        text-decoration: underline;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form .mh-line a.mh-link_2 {
+        *display: inline-block;
+        margin-left: 7px;
+        line-height: 15px;
+        *line-height: 14px;
+        font-size: 13px;
+        *font-size: 12px;
+        color: #333;
+        text-decoration: none;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form .mh-line a.mh-link_2:hover {
+        color: blue;
+        text-decoration: underline;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form input.mh-input_box {
+        height: 22px;
+        line-height: 22px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form input.mh-input_box#car_price {
+        width: 85px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form input.mh-input_box#loan_rate {
+        width: 32px;
+        margin-right: 3px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form input.mh-input_box.mh-normal_border {
+        border-color: #ccc;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form input.mh-input_box.mh-focus_border {
+        border-color: #66afe9;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form input.mh-input_box.mh-warning_border {
+        border-color: #FF2929;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form select.mh-input_box {
+        height: 28px;
+        line-height: 22px;
+        margin-left: 0;
+        margin-right: 4px;
+        padding-left: 2px;
+        padding-right: 4px;
+        font-size: 12px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form select.mh-input_box.mh-long_select {
+        width: 130px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form select.mh-input_box.mh-short_select {
+        width: 68px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form select.mh-input_box#business_discount {
+        margin-right: 0;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form .mh-long_select_wrapper {
+        display: inline-block;
+        border: solid 1px #ccc;
+        padding: 4px 1px;
+        margin-right: 5px;
+        vertical-align: middle;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form .mh-long_select_shelter {
+        display: inline-block;
+        width: 128px;
+        *width: 126px;
+        height: 18px;
+        overflow: hidden;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form .mh-long_select_shelter select.mh-input_box.mh-long_select {
+        *margin: -2px;
+        padding: 0px;
+        border: 0px;
+        width: 130px;
+        height: 22px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form .mh-short_select_wrapper {
+        display: inline-block;
+        border: solid 1px #ccc;
+        padding: 4px 1px;
+        margin-right: 0px;
+        vertical-align: middle;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form .mh-short_select_shelter {
+        display: inline-block;
+        width: 64px;
+        *width: 62px;
+        height: 18px;
+        overflow: hidden;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form .mh-short_select_shelter select.mh-input_box.mh-short_select {
+        *margin: -2px;
+        padding: 0px;
+        border: 0px;
+        width: 66px;
+        height: 22px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form .mh-btn_group {
+        height: 32px;
+        padding-left: 73px;
+        *padding-left: 71px;
+        padding-top: 7px;
+        padding-bottom: 10px;
+        background: #fff;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form .mh-btn_group .mh-btn {
+        float: left;
+        display: inline;
+        width: 85px;
+        height: 30px;
+        line-height: 20px;
+        text-align: center;
+        vertical-align: middle;
+        padding: 4px 12px;
+        *padding-top: 2px;
+        margin-right: 15px;
+        margin-bottom: 0;
+        font-size: 14px;
+        letter-spacing: 1.4px;
+        cursor: pointer;
+        border-radius: 1px;
+        box-shadow: none;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form .mh-btn_group .mh-calc_btn {
+        color: #FFF;
+        background: #00bc3e;
+        border: 1px solid #00aa38;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form .mh-btn_group .mh-calc_btn:hover {
+        background: #00ce44;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form .mh-btn_group .mh-reset_btn {
+        color: #333;
+        background: #F6F6F6;
+        border: 1px solid #CBCBCB;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-input_form .mh-btn_group .mh-reset_btn:hover {
+        background: #fafafa;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-output_list {
+        float: left;
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        padding: 0 5px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-output_list .mh-data_item_list {
+        display: block;
+        _width: 503px;
+        border-top: 1px dashed #eee;
+        *padding-top: 15px;
+        background: #FFF;
+        overflow: hidden;
+        *overflow: visible;
+        _overflow: hidden;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-output_list .mh-data_item_list .mh-data_item {
+        width: 513px;
+        height: 15px;
+        _height: 34px;
+        margin-top: 10px;
+        padding: 10px 0 9px 0;
+        border: 1px solid #DDDDDD;
+        border: 0;
+        background: #fafafa;
+        overflow: hidden;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-output_list .mh-data_item_list .mh-total_item {
+        background: #F5F6F8;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-output_list .mh-data_item_list .mh-data_item .mh-item_name {
+        padding: 0 30px 0 10px;
+        _font-size: 12px;
+        font-weight: bold;
+        width: 90px;
+        _width: 95px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-output_list .mh-data_item_list .mh-data_item .mh-item_data {
+        color: #1cbc44;
+        font-weight: bold;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-output_list .mh-data_item_list .mh-data_item .mh-view_detail {
+        float: right;
+        padding: 0 10px 0 0;
+        *margin-top: -20px;
+        _margin-right: 10px;
+        color: blue;
+        cursor: pointer;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-output_list .mh-data_item_list .mh-data_item .mh-view_detail:hover {
+        text-decoration: underline;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-output_list .mh-data_item_list .mh-data_item img {
+        vertical-align: text-top;
+        margin-top: 1px;
+        padding: 0 0 0 5px;
+        _margin-left: 5px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-output_list .mh-data_item_list #insurance_item .mh-config_select {
+        margin-left: 2px;
+        *margin-left: 0px;
+        cursor: pointer;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-output_list .mh-data_item_list #insurance_item .mh-config_select i {
+        line-height: 16px;
+        font-size: 13px;
+        _font-size: 14px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-output_list .mh-data_item_list #insurance_item .mh-config_select input#config_radio1 {
+        margin-left: 0;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-output_list .mh-data_item_list #insurance_item .mh-config_select input.mh-config_radio {
+        vertical-align: text-top;
+        margin-top: 0px;
+        *margin-top: -4px;
+        margin-right: 4px;
+        *margin-right: 0px;
+        cursor: pointer;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-output_list .mh-atc_relate {
+        float: left;
+        width: 502px;
+        height: 25px;
+        line-height: 25px;
+        margin-top: 16px;
+        margin-left: 0px;
+        _margin-left: 0px;
+        margin-bottom: 5px;
+        text-align: right;
+        cursor: pointer;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-output_list .mh-atc_relate i.mh-pretit {
+        float: left;
+        display: inline;
+        margin-left: 2px;
+        color: #666;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-output_list .mh-atc_relate .mh-link_3 {
+        float: left;
+        display: inline;
+        margin-left: 2px;
+        color: blue;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-output_list .mh-atc_relate .mh-link_3:hover {
+        color: blue;
+        text-decoration: underline;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-output_list .mh-atc_relate .mh-link_4 {
+        display: inline;
+        margin-right: 3px;
+        _margin-right: 7px;
+        color: #666;
+        text-decoration: underline;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-output_list .mh-atc_relate .mh-link_4:hover {
+        color: blue;
+        text-decoration: underline;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-calc_footer {
+        width: 513px;
+        margin-top: 0px;
+        *margin-top: 0px;
+        margin-left: 13px;
+        border-top: #e5e5e5 solid 1px;
+        overflow: auto;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-calc_footer .mh-btm_atc_recmd {
+        width: 513px;
+        height: 26px;
+        line-height: 26px;
+        padding-left: 0px;
+        overflow: hidden;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-calc_footer .mh-btm_atc_recmd div,
+    #mohe-obo_cdjsq360jie .mh-btm_atc_recmd a {
+        float: left;
+        display: block;
+        padding-top: 2px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-calc_footer .mh-btm_atc_recmd .mh-title {
+        margin-right: 10px;
+        color: #666;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-calc_footer .mh-btm_atc_recmd a {
+        margin-right: 10px;
+        color: blue;
+        text-decoration: none;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-calc_footer .mh-btm_atc_recmd a:hover {
+        color: #1024ee;
+        text-decoration: underline;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-result_page {
+        width: 533px;
+        min-height: 250px;
+        margin: 0;
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06);
+        -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06);
+        -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06);
+    }
+
+    #mohe-obo_cdjsq360jie .mh-result_header {
+        width: 533px;
+        height: 35px;
+        padding: 0px;
+        border-bottom: solid 1px #e5e5e5;
+        background: #f8f8f8;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-result_header .mh-tab {
+        display: inline-block;
+        float: left;
+        width: 110px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        font-size: 13px;
+        letter-spacing: 0.6px;
+        color: #666;
+        border: 0;
+        border-right: 1px solid #e5e5e5;
+        cursor: pointer;
+        -ms-user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-result_header .mh-tab.mh-select_tab {
+        height: 34px;
+        color: #1cbc44;
+        font-weight: bold;
+        border-top: 2px solid #1cbc44;
+        border-bottom: solid 1px #fff;
+        background: #fff;
+        cursor: default;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-result_header .mh-tab.mh-normal_tab {}
+
+    #mohe-obo_cdjsq360jie .mh-result_header .mh-tab i {
+        display: none;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-result_header .mh-tab.mh-select_tab i {
+        display: inline-block;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-result_header .mh-back_btn {
+        display: inline-block;
+        float: left;
+        width: 55px;
+        _width: 75px;
+        height: 35px;
+        line-height: 35px;
+        padding-left: 15px;
+        padding-right: 10px;
+        border-right: 1px solid #e5e5e5;
+        text-align: left;
+        letter-spacing: 0.6px;
+        color: #333;
+        cursor: pointer;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-result_header .mh-back_btn img {
+        vertical-align: text-top;
+        margin-top: 2px;
+        margin-right: 5px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-result_header .mh-back_btn i {
+        display: inline-block;
+        margin-right: 2px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #65778A
+    }
+
+    #mohe-obo_cdjsq360jie .mh-result_body {
+        width: 518px;
+        _width: 533px;
+        min-height: 100px;
+        padding: 0 10px 0 10px;
+        overflow: auto;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group {
+        border: 1px solid #DDDDDD;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group table {
+        width: 513px;
+        border: 0;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group table td {
+        vertical-align: middle;
+    }
+
+    /* mohe_obo add */
+    #mohe-obo_cdjsq360jie .mh-r_data_group td {
+        height: 36px;
+        line-height: 36px;
+        border: solid #EBEBEB;
+        border-width: 0px 1px 1px 0px;
+        padding: 0 10px;
+        background: #FFFFFF;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group .mh-rtd {
+        border-right: 0;
+        text-align: center;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group .mh-btmtd {
+        border-bottom: 0;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group input,
+    #mohe-obo_cdjsq360jie .mh-r_data_group select {
+        color: #666666;
+        font-family: arial, "宋体", "微软雅黑";
+        font-size: 12px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group .mh-rtd input {
+        width: 70px;
+        padding-right: 2px;
+        text-align: right;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group .mh-inpt {
+        width: 86px;
+        height: 22px;
+        line-height: 22px;
+        border: 1px solid #D6D6D6;
+        padding: 0 0 0 8px;
+        background: #FFFFFF;
+        z-index: 2;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group .mh-inpt_on {
+        background: rgb(255, 255, 255);
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group .mh-inpt_off {
+        background: rgb(238, 238, 238);
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group .mh-help {
+        position: absolute;
+        margin-top: 12px;
+        *margin-top: 6px;
+        margin-left: 3px;
+        cursor: pointer;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group .mh-help_wnd {
+        position: absolute;
+        line-height: 20px;
+        border: 1px solid #CCCCCC;
+        padding: 7px;
+        box-shadow: 0 1px 5px #DDDDDD;
+        background: none repeat scroll 0 0 #FFFFFF;
+        display: none;
+        z-index: 10000;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group .mh-help_wnd .mh-arrow {
+        position: absolute;
+        top: -7px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group .mh-help_wnd .mh-close {
+        float: right;
+        cursor: pointer;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group .mh-help_wnd .mh-content {
+        padding: 10px 0 5px 0;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group ul,
+    li {
+        list-style: none;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group .mh-pllist,
+    #mohe-obo_cdjsq360jie .mh-r_data_group .mh-pflist {
+        padding: 0;
+        margin: 0;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group .mh-pllist li {
+        float: left;
+        width: 100px;
+        *width: 105px;
+        line-height: 22px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group .mh-pflist li {
+        float: left;
+        width: 52px;
+        line-height: 22px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group .mh-pflist li.mh-wid_li {
+        width: 60px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group .mh-atc_relate {
+        float: left;
+        width: 502px;
+        height: 25px;
+        line-height: 25px;
+        margin-top: 16px;
+        margin-left: 0px;
+        _margin-left: 0px;
+        margin-bottom: 5px;
+        text-align: right;
+        cursor: pointer;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group .mh-atc_relate i.mh-pretit {
+        float: left;
+        display: inline;
+        margin-left: 2px;
+        color: #666;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group .mh-atc_relate .mh-link_3 {
+        float: left;
+        display: inline;
+        margin-left: 2px;
+        color: blue;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group .mh-atc_relate .mh-link_3:hover {
+        color: blue;
+        text-decoration: underline;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group .mh-atc_relate .mh-link_4 {
+        display: inline;
+        margin-right: 3px;
+        _margin-right: 7px;
+        color: #666;
+        text-decoration: underline;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-r_data_group .mh-atc_relate .mh-link_4:hover {
+        color: blue;
+        text-decoration: underline;
+    }
+
+    #mohe-obo_cdjsq360jie #tax_result {
+        border: 0;
+    }
+
+    #mohe-obo_cdjsq360jie #tax_result table {
+        border: 1px solid #DDDDDD;
+    }
+
+    #mohe-obo_cdjsq360jie #tax_result td {
+        height: 52px;
+        line-height: 52px;
+    }
+
+    #mohe-obo_cdjsq360jie #tax_result .mh-help {
+        margin-top: 20px;
+        *margin-top: 1px;
+    }
+
+    #mohe-obo_cdjsq360jie #insr_result {
+        border: 0;
+    }
+
+    #mohe-obo_cdjsq360jie #insr_result table {
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+    #mohe-obo_cdjsq360jie #insr_result .mh-ltd {
+        border-left: 1px solid #EBEBEB;
+    }
+
+    #mohe-obo_cdjsq360jie #insr_result .mh-rtd {
+        border-right: 1px solid #EBEBEB;
+    }
+
+    #mohe-obo_cdjsq360jie #insr_result .mh-insr_config_tabs {
+        border-width: 0 0 1px 0;
+        text-align: center;
+        padding-right: 0
+    }
+
+    #mohe-obo_cdjsq360jie #insr_result .mh-insr_config_tabs ul {
+        float: left;
+        margin: 10px 0 10px 81px;
+        padding: 0;
+        border: 1px solid #DDD;
+        overflow: hidden;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+    #mohe-obo_cdjsq360jie #insr_result .mh-insr_config_tabs li {
+        float: left;
+        width: 100px;
+        line-height: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    #mohe-obo_cdjsq360jie #insr_result .mh-insr_config_tabs li.mh-center {
+        border-left: 1px solid #DDD;
+        border-right: 1px solid #DDD
+    }
+
+    #mohe-obo_cdjsq360jie #insr_result .mh-insr_config_tabs li.mh-on {
+        background: #EEE;
+        box-shadow: 1px 1px 4px #DDD;
+    }
+
+    #mohe-obo_cdjsq360jie #insr_result .mh-insr_config_tabs .mh-insr_total {
+        display: inline-block;
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        margin: 10px 0 10px 10px;
+        text-align: right;
+    }
+
+    #mohe-obo_cdjsq360jie #insr_result .mh-insr_config_tabs #insr_sum {
+        font-size: 16px;
+        font-weight: bold;
+        color: #1cbc44
+    }
+
+    #mohe-obo_cdjsq360jie #insr_result .mh-insr_config_tabs i {
+        font-size: 8px;
+        font-weight: 200;
+        color: #aaa
+    }
+
+    #mohe-obo_cdjsq360jie #loan_result {
+        border: 0;
+    }
+
+    #mohe-obo_cdjsq360jie #loan_result .mh-help {
+        *margin-top: 0px;
+    }
+
+    #mohe-obo_cdjsq360jie #loan_result .mh-tbl_name {
+        font-weight: bold;
+    }
+
+    #mohe-obo_cdjsq360jie #loan_result .mh-tbl {
+        margin-top: 5px;
+        border-top: 1px solid #DDD;
+    }
+
+    #mohe-obo_cdjsq360jie #loan_result .mh-tbl .mh-td1 {
+        width: 90px;
+        border-left: 1px solid #DDDDDD;
+        padding-left: 10px;
+        background: #F8F8F8;
+    }
+
+    #mohe-obo_cdjsq360jie #loan_result .mh-tbl .mh-td2 {
+        padding-right: 5px;
+        text-align: right;
+        color: #CCC;
+        background: #FFFFFF;
+    }
+
+    #mohe-obo_cdjsq360jie #loan_result .mh-tbl td {
+        height: 50px;
+        line-height: 50px;
+        padding: 0 5px 0 10px;
+    }
+
+    #mohe-obo_cdjsq360jie #loan_result .mh-tbl td var {
+        color: #333333;
+        font-style: normal;
+    }
+
+    #mohe-obo_cdjsq360jie #loan_result .mh-tbl td em {
+        color: #1cbc44;
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-result_footer {
+        width: 513px;
+        margin-top: 0px;
+        *margin-top: 0px;
+        margin-left: 13px;
+        border-top: #e5e5e5 solid 1px;
+        overflow: auto;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-result_footer .mh-btm_atc_recmd {
+        width: 513px;
+        height: 26px;
+        line-height: 26px;
+        padding-left: 0px;
+        overflow: hidden;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-result_footer .mh-btm_atc_recmd div,
+    #mohe-obo_cdjsq360jie .mh-btm_atc_recmd a {
+        float: left;
+        display: block;
+        padding-top: 2px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-result_footer .mh-btm_atc_recmd .mh-title {
+        margin-right: 10px;
+        color: #666;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-result_footer .mh-btm_atc_recmd a {
+        margin-right: 10px;
+        color: blue;
+        text-decoration: none;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-result_footer .mh-btm_atc_recmd a:hover {
+        color: #1024ee;
+        text-decoration: underline;
+    }
+
+    #mohe-obo_cdjsq360jie #citylist {
+        position: absolute;
+        width: 426px;
+        border: 1px solid #999999;
+        padding: 0;
+        background: #FFFFFF;
+        box-shadow: 0 1px 5px #DDDDDD;
+        display: none;
+        z-index: 6000;
+    }
+
+    #mohe-obo_cdjsq360jie #citylist .mh-close {
+        position: absolute;
+        float: right;
+        left: 392px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    #mohe-obo_cdjsq360jie #citylist .mh-bt {
+        height: 25px;
+        border-bottom: 1px solid #D1D1D1;
+        padding: 5px 0 0 20px;
+        background: #EDEDED;
+    }
+
+    #mohe-obo_cdjsq360jie #citylist .mh-lb {
+        float: left;
+        padding-left: 20px;
+    }
+
+    #mohe-obo_cdjsq360jie #citylist dl {
+        float: left;
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    #mohe-obo_cdjsq360jie #citylist dt {
+        font-weight: bold;
+    }
+
+    #mohe-obo_cdjsq360jie #citylist dd {
+        margin: 0;
+    }
+
+    #mohe-obo_cdjsq360jie #citylist li {
+        float: left;
+        width: 45px;
+        line-height: 20px;
+        color: #0055bb;
+        cursor: pointer;
+    }
+
+    /* 增加的css */
+    #mohe-obo_cdjsq360jie .mh-btm-act-content {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: 82px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-btm-act-content .mh-btm-img-box {
+        width: 200px;
+        height: 80px;
+        border: 1px solid #ededed;
+        float: left;
+        margin-right: 10px;
+        position: relative;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-btm-act-content .mh-btm-img-box img {
+        width: 200px;
+        height: 80px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-btm-act-content .mh-btm-img-box .mh-btm-txt {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 20px;
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        line-height: 20px;
+        padding-left: 5px;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-btm-act-content .mh-btm-link-box {
+        width: 295px;
+        float: left;
+    }
+
+    #mohe-obo_cdjsq360jie .mh-btm-act-content .mh-btm-link-box a {
+        display: block;
+        line-height: 28px;
+        color: blue;
+        width: 295px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+</style>
+
+<div id="mohe-obo_cdjsq360jie" class="g-mohe">
+    <h3 class="title" title="购车计算器" style="margin-top:0px;">
+        <a href="https://www.xjietiao.com?utm_source=search360&utm_medium=chedaijisuanqi_tupian" target="_blank"
+            style="text-decoration:underline;">
+            <em>购车计算器</em>
+            <font style="color:blue">_360借条</font>
+        </a>
+    </h3>
+
+    <div class="cont" style="margin-top:8px;">
+
+        <div class="mh-calculator_canvas">
+            <div class="mh-calculator">
+                <div class="mh-calc_page" style="display:block;">
+                    <ul id="calc_header" class="mh-calc_header">
+                        <li id="fullpaybuy_tab" class="mh-tab mh-select_tab">全款买车</li>
+                        <li id="loanbuy_tab" class="mh-tab mh-normal_tab">贷款买车</li>
+                        <li id="insrcalc_tab" class="mh-tab mh-normal_tab">车险计算</li>
+                    </ul>
+                    <div class="mh-calc_body">
+                        <div class="mh-input_form">
+                            <div class="mh-line">
+                                <span>地区</span>
+                                <span id="city_select"><i>默认</i>&nbsp;<img
+                                        src="https://p.ssl.qhimg.com/t01f118e151e8bca967.png"></span>
+                                <div id="citylist" style="margin-left:70px;margin-top:0px;display:none;">
+                                    <img class="mh-close" src="https://p.ssl.qhimg.com/t01977d909dcf3a7520.png">
+                                    <div class="mh-bt">城市列表</div>
+                                    <div class="mh-lb">
+                                        <dl>
+                                            <dt>热门城市</dt>
+                                            <dd>
+                                                <li>北京</li>
+                                                <li>上海</li>
+                                                <li>深圳</li>
+                                                <li>天津</li>
+                                                <li>重庆</li>
+                                                <li>大连</li>
+                                                <li>青岛</li>
+                                                <li>宁波</li>
+                                                <li>厦门</li>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>省份</dt>
+                                            <dd>
+                                                <li>河北</li>
+                                                <li>山西</li>
+                                                <li>内蒙古</li>
+                                                <li>辽宁</li>
+                                                <li>吉林</li>
+                                                <li>黑龙江</li>
+                                                <li>江苏</li>
+                                                <li>浙江</li>
+                                                <li>安徽</li>
+                                                <li>福建</li>
+                                                <li>江西</li>
+                                                <li>山东</li>
+                                                <li>河南</li>
+                                                <li>湖北</li>
+                                                <li>湖南</li>
+                                                <li>广东</li>
+                                                <li>广西</li>
+                                                <li>海南</li>
+                                                <li>四川</li>
+                                                <li>贵州</li>
+                                                <li>云南</li>
+                                                <li>陕西</li>
+                                                <li>甘肃</li>
+                                                <li>青海</li>
+                                                <li>宁夏</li>
+                                                <li>新疆</li>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mh-line">
+                                <span>车价</span>
+                                <label>
+                                    <input id="car_price" class="mh-input_box mh-normal_border" type="text" value=""
+                                        placeholder="填写金额" autocomplete="off"><i>元</i>
+                                    <i id="car_price_warning" class="mh-warning_text" style="display:none;">请填写金额</i>
+                                </label>
+                            </div>
+                            <div class="mh-line">
+                                <span>座位数</span>
+                                <label class="mh-seats_select" style="margin-right:7px;"><input type="radio"
+                                        name="seats_radio" value="0" id="seats_radio1" class="mh-seats_radio"
+                                        checked="checked"><i>6座以下</i></label>
+                                <label class="mh-seats_select"><input type="radio" name="seats_radio" value="1"
+                                        id="seats_radio2" class="mh-seats_radio"><i>6座及以上</i></label>
+                            </div>
+                            <div id="pay_ratio_line" class="mh-line" style="display:none;">
+                                <span>首付</span>
+                                <select id="pay_ratio_select" class="mh-input_box mh-long_select">
+                                    <option value="0" data-payratio="0.2">20%</option>
+                                    <option value="1" data-payratio="0.3" selected="selected">30%</option>
+                                    <option value="2" data-payratio="0.4">40%</option>
+                                    <option value="3" data-payratio="0.5">50%</option>
+                                    <option value="4" data-payratio="0.6">60%</option>
+                                    <option value="5" data-payratio="0.7">70%</option>
+                                    <option value="6" data-payratio="0.8">80%</option>
+                                    <option value="7" data-payratio="0.9">90%</option>
+                                </select>
+                            </div>
+                            <div id="loan_period_line" class="mh-line" style="display:none;">
+                                <span>贷款期限</span>
+                                <select id="loan_period_select" class="mh-input_box mh-long_select">
+                                    <option value="0" data-loanperiod="6">半年（6期）</option>
+                                    <option value="1" data-loanperiod="12" selected="selected">1年（12期）</option>
+                                    <option value="2" data-loanperiod="24">2年（24期）</option>
+                                    <option value="3" data-loanperiod="36">3年（36期）</option>
+                                    <option value="4" data-loanperiod="48">4年（48期）</option>
+                                    <option value="5" data-loanperiod="60">5年（60期）</option>
+                                </select>
+                            </div>
+                            <div id="rate_discount_line" class="mh-line" style="display:none;">
+                                <span>贷款利率</span>
+                                <select id="rate_discount_select" class="mh-input_box mh-long_select"
+                                    input-method="auto">
+                                    <option value="-1">手动输入</option>
+                                    <option value="0" data-discount="0.7">最新基准利率7折</option>
+                                    <option value="1" data-discount="0.8">最新基准利率8折</option>
+                                    <option value="2" data-discount="0.85">最新基准利率85折</option>
+                                    <option value="3" data-discount="0.9">最新基准利率9折</option>
+                                    <option value="4" data-discount="1.0" selected="selected">最新基准利率</option>
+                                    <option value="5" data-discount="1.1">最新基准利率1.1倍</option>
+                                    <option value="6" data-discount="1.2">最新基准利率1.2倍</option>
+                                    <option value="7" data-discount="1.3">最新基准利率1.3倍</option>
+                                </select>
+                                <label>
+                                    <input id="loan_rate" class="mh-input_box mh-normal_border" type="text" value="4.35"
+                                        placeholder="利率" autocomplete="off"><i>%</i>
+                                </label>
+                            </div>
+                            <div class="mh-line mh-btn_group mh-high_btn_group">
+                                <button id="calculate" class="mh-btn mh-calc_btn">计算</button>
+                                <button id="reset" class="mh-btn mh-reset_btn">重置</button>
+                            </div>
+                        </div>
+
+                        <div id="output_list" class="mh-output_list">
+                            <div id="data_item_list" class="mh-data_item_list">
+                                <div class="mh-data_item mh-total_item" id="total_item_1" item-id="1"
+                                    style="margin-top:15px;display:block;">
+                                    <span class="mh-item_name" style="padding-right:17px">购车总费用</span>
+                                    <span class="mh-item_data" id="total_val_1">0</span> 元
+                                </div>
+                                <div class="mh-data_item mh-total_item" id="total_item_2" item-id="2"
+                                    style="margin-top:15px;display:none;">
+                                    <span class="mh-item_name" style="padding-right:3px">购车总费用</span>
+                                    <span class="mh-item_data" id="total_val_2">0</span> 元
+                                    <span class="mh-item_name" style="margin-left:2px;padding-right:2px">首付</span>
+                                    <span class="mh-item_data" id="pay_val">0</span> 元
+                                    <span class="mh-item_name" style="margin-left:2px;padding-right:2px">每月还款</span>
+                                    <span class="mh-item_data" id="repay_val">0</span> 元
+                                    <span id="view_loan_detail" class="mh-view_detail">详细<img
+                                            src="https://p.ssl.qhimg.com/t01a3ec9feec4f41e1b.png"></span>
+                                </div>
+                                <div class="mh-data_item mh-total_item" id="total_item_3" item-id="3"
+                                    style="margin-top:15px;display:none;">
+                                    <span class="mh-item_name" style="padding-right:17px">车险总费用</span>
+                                    <span class="mh-item_data" id="total_val_3">0</span> 元
+                                </div>
+                                <div class="mh-data_item" id="tax_item" item-id="4">
+                                    <span class="mh-item_name">基本税费</span>
+                                    <span class="mh-item_data" id="tax_val">0</span> 元
+                                    <span id="view_tax_detail" class="mh-view_detail">详细<img
+                                            src="https://p.ssl.qhimg.com/t01a3ec9feec4f41e1b.png"></span>
+                                </div>
+                                <div class="mh-data_item" id="jqx_item" item-id="5" style="display:none;">
+                                    <span class="mh-item_name">强制保险</span>
+                                    <span class="mh-item_data" id="jqx_val">0</span> 元
+                                </div>
+                                <div class="mh-data_item" id="insurance_item" item-id="6">
+                                    <span class="mh-item_name">商业保险</span>
+                                    <span class="mh-item_data" id="insr_val">0</span> 元
+                                    <label class="mh-config_select" style="margin-left:28px;*margin-left:28px;"><input
+                                            type="radio" name="config_radio" value="1" class="mh-config_radio"
+                                            config-type="basic"><i>基本保障</i></label>
+                                    <label class="mh-config_select"><input type="radio" name="config_radio" value="2"
+                                            class="mh-config_radio mh-select" checked="checked"
+                                            config-type="afford"><i>经济保障</i></label>
+                                    <label class="mh-config_select"><input type="radio" name="config_radio" value="3"
+                                            class="mh-config_radio" config-type="all"><i>全险</i></label>
+                                    <span id="view_insr_detail" class="mh-view_detail">详细<img
+                                            src="https://p.ssl.qhimg.com/t01a3ec9feec4f41e1b.png"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="calc_footer" class="mh-calc_footer">
+                        <div class="mh-btm-act-content gclearfix">
+                            <div class="mh-btm-img-box">
+                                <a target="_blank"
+                                    href="https://www.xjietiao.com?utm_source=search360&utm_medium=chedaijisuanqi_tupian">
+                                    <img src="https://p.ssl.qhimg.com/t019c321885cd395c8a.jpg"></a>
+                                <div class="mh-btm-txt">360进军消费贷，最高可借20万</div>
+                            </div>
+                            <div class="mh-btm-link-box">
+                                <a target="_blank"
+                                    href="https://www.xjietiao.com/news-detail.html?id=bdbda4626cd243c8a3420b60bb99c7e7&utm_source=search360&utm_medium=chedaijisuanqi_xinwen">贷款买车可以贷几年？贷款买车流程介绍</a>
+                                <a target="_blank"
+                                    href="https://www.xjietiao.com/news-detail.html?id=ba64f08b3ac64e0ba3a99066f59e5cd4&utm_source=search360&utm_medium=chedaijisuanqi_xinwen">买车选择&ldquo;全款&rdquo;还是&ldquo;贷款&rdquo;？
+                                    到底谁更聪明！</a>
+                                <a target="_blank"
+                                    href="https://www.xjietiao.com/news-detail.html?id=34ffaf1050d846e68a1ce83dbe8958a6&utm_source=search360&utm_medium=chedaijisuanqi_xinwen">买个车20万，给你一个贷款买车理由，要不要？</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="mh-result_page" style="display:none;">
+                    <ul id="result_header" class="mh-result_header">
+                        <li id="backto_calc" class="mh-back_btn"><img
+                                src="https://p.ssl.qhimg.com/t019c7faf5709a43bfc.png"><i>返</i><i>回</i></li>
+                        <li id="tax_tab" class="mh-tab mh-normal_tab">基本税费</li>
+                        <li id="insr_tab" class="mh-tab mh-normal_tab">商业保险</li>
+                        <li id="loan_tab" class="mh-tab mh-normal_tab" style="display:none;">贷款明细</li>
+                    </ul>
+                    <div class="mh-result_body">
+                        <div id="tax_result" class="mh-r_data_group" style="display:none;">
+                            <table cellpadding="0" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td width="70">购置税</td>
+                                        <td>&nbsp;</td>
+                                        <td width="110" class="mh-rtd"><input type="text" id="tax_gzs" class="mh-inpt"
+                                                readonly=""> 元</td>
+                                    </tr>
+                                    <tr>
+                                        <td>上牌费用<img src="https://p.ssl.qhimg.com/t0166f56474484f4c10.png"
+                                                class="mh-help" id="spfy_hicon" hwnd="spfy">
+                                            <div class="mh-help_wnd" id="spfy_hwnd" style="width:450px;display:none;">
+                                                <img src="https://p.ssl.qhimg.com/t019810d5546a845dca.png"
+                                                    class="mh-arrow" style="left:55px;*left:50px">
+                                                <img src="https://p.ssl.qhimg.com/t01d192730d68b3580f.png"
+                                                    class="mh-close">
+                                                <div class="mh-content">
+                                                    通常商家提供的一条龙服务收费约500元，个人办理约373元，其中工商验证、出库150元、移动证30元、环保卡3元、拓号费40元、行驶证相片20元、托盘费130元，以当地实际情况为准。
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>&nbsp;</td>
+                                        <td class="mh-rtd"><input type="text" id="tax_spfy" class="mh-inpt" value="0"
+                                                last-value="0"> 元</td>
+                                    </tr>
+                                    <tr>
+                                        <td>车船使用税</td>
+                                        <td>
+                                            <ul class="mh-pllist">
+                                                <li><input type="radio" name="pl" class="mh-radio"
+                                                        value="0"><label>1.0L(含)以下</label></li>
+                                                <li><input type="radio" name="pl" class="mh-radio mh-select" value="1"
+                                                        checked=""><label>1.0-1.6L(含)</label></li>
+                                                <li><input type="radio" name="pl" class="mh-radio"
+                                                        value="2"><label>1.6-2.0L(含)</label></li>
+                                                <li><input type="radio" name="pl" class="mh-radio"
+                                                        value="3"><label>2.0-2.5L(含)</label></li>
+                                                <li><input type="radio" name="pl" class="mh-radio"
+                                                        value="4"><label>2.5-3.0L(含)</label></li>
+                                                <li><input type="radio" name="pl" class="mh-radio"
+                                                        value="5"><label>3.0-4.0L(含)</label></li>
+                                                <li><input type="radio" name="pl" class="mh-radio"
+                                                        value="6"><label>4.0L以上</label></li>
+                                            </ul>
+                                        </td>
+                                        <td class="mh-rtd"><input type="text" id="tax_ccs" class="mh-inpt" value="0"
+                                                readonly=""> 元</td>
+                                    </tr>
+                                    <tr>
+                                        <td>交强险</td>
+                                        <td>&nbsp;</td>
+                                        <td class="mh-rtd"><input type="text" id="tax_jqx" class="mh-inpt" readonly="">
+                                            元</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="mh-btmtd" style="font-weight:bold;color:#888">税费总计</td>
+                                        <td class="mh-btmtd">&nbsp;</td>
+                                        <td class="mh-rtd mh-btmtd"><input type="text" id="tax_sum" class="mh-inpt"
+                                                readonly=""> 元</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="insr_result" class="mh-r_data_group" style="display:none;">
+                            <table cellpadding="0" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td colspan="3" class="mh-insr_config_tabs">
+                                            <ul>
+                                                <li config-type="basic" class="mh-off">基本保障</li>
+                                                <li config-type="afford" class="mh-center mh-on">经济型保障</li>
+                                                <li config-type="all" class="mh-off">全险</li>
+                                            </ul>
+                                            <span class="mh-insr_total"><label id="insr_sum">0元</label><i> 总计</i></span>
+
+                                            <div class="mh-clear"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="120" class="mh-ltd"><input type="checkbox" name="c_insr" id="c_szx"
+                                                insr-name="szx" checked=""><label>第三者责任险</label><img
+                                                src="https://p.ssl.qhimg.com/t0166f56474484f4c10.png" class="mh-help"
+                                                id="szx_hicon" hwnd="szx">
+                                            <div class="mh-help_wnd" id="szx_hwnd" style="width:450px;display:none;">
+                                                <img src="https://p.ssl.qhimg.com/t019810d5546a845dca.png"
+                                                    class="mh-arrow" style="left:94px;*left:53px">
+                                                <img src="https://p.ssl.qhimg.com/t01d192730d68b3580f.png"
+                                                    class="mh-close">
+                                                <div class="mh-content">
+                                                    第三者责任险是指被保险人或其允许的驾驶人员在使用保险车辆过程中发生意外事故，致使第三者遭受人身伤亡或财产直接损毁，依法应当由被保险人承担的经济责任，保险公司负责赔偿。同时，若经保险公司书面同意，被保险人因此发生仲裁或诉讼费用的，保险公司在责任限额以外赔偿，但最高不超过责任限额的30％。因为交强险在对第三者的财产损失和医疗费用部分赔偿较低，可考虑购买第三者责任险作为交强险的补充。
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td style="line-height:22px">
+                                            赔付额度：<br>
+                                            <ul class="mh-pflist">
+                                                <li><input type="radio" name="szxbe" class="mh-radio"
+                                                        value="0"><label>5万</label></li>
+                                                <li><input type="radio" name="szxbe" class="mh-radio mh-select"
+                                                        value="1" checked=""><label>10万</label></li>
+                                                <li><input type="radio" name="szxbe" class="mh-radio"
+                                                        value="2"><label>15万</label></li>
+                                                <li><input type="radio" name="szxbe" class="mh-radio"
+                                                        value="3"><label>20万</label></li>
+                                                <li><input type="radio" name="szxbe" class="mh-radio"
+                                                        value="4"><label>30万</label></li>
+                                                <li><input type="radio" name="szxbe" class="mh-radio"
+                                                        value="5"><label>50万</label></li>
+                                                <li class="mh-wid_li"><input type="radio" name="szxbe" class="mh-radio"
+                                                        value="6"><label>100万</label></li>
+                                            </ul>
+                                        </td>
+                                        <td width="110" class="mh-rtd"><input type="text" id="insr_szx"
+                                                class="mh-inpt mh-inpt_on" readonly=""> 元</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="mh-ltd"><input type="checkbox" name="c_insr" id="c_clssx"
+                                                insr-name="clssx" checked=""><label>车辆损失险</label><img
+                                                src="https://p.ssl.qhimg.com/t0166f56474484f4c10.png" class="mh-help"
+                                                id="clssx_hicon" hwnd="clssx">
+                                            <div class="mh-help_wnd" id="clssx_hwnd" style="width:450px;display:none;">
+                                                <img src="https://p.ssl.qhimg.com/t019810d5546a845dca.png"
+                                                    class="mh-arrow" style="left:81px;*left:48px">
+                                                <img src="https://p.ssl.qhimg.com/t01d192730d68b3580f.png"
+                                                    class="mh-close">
+                                                <div class="mh-content">
+                                                    车辆损失险是车辆保险中用途最广泛的险种，它负责赔偿由于自然灾害和意外事故造成的自己车辆的损失。无论是小剐小蹭，还是损坏严重，都可以由保险公司来支付修理费用。<br>
+                                                    被保险人或其允许的合格驾驶员在使用保险车辆过程中，因下列原因造成保险车辆的损失，保险公司负责赔偿：1．碰撞、倾覆；2．火灾、爆炸；3．外界物体倒塌、空中运行物体坠落、保险车辆行驶中平行坠落；4．雷击、暴风、龙卷风、暴雨、洪水、海啸、地陷、冰陷、崖崩、雪崩、雹灾、泥石流、滑坡；5.
+                                                    载运保险车辆的渡船遭受自然灾害（只限于有驾驶员随车照料者）。<br>
+                                                    发生保险事故时，被保险人或其允许的合格驾驶员对保险车辆采取施救、保护措施所支出的合理费用，保险公司负责赔偿。但此项费用的最高赔偿金额以责任限额为限。
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>&nbsp;</td>
+                                        <td class="mh-rtd"><input type="text" id="insr_clssx" class="mh-inpt mh-inpt_on"
+                                                readonly=""> 元</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="mh-ltd"><input type="checkbox" name="c_insr" id="c_qcqdx"
+                                                insr-name="qcqdx" checked=""><label>全车强盗险</label><img
+                                                src="https://p.ssl.qhimg.com/t0166f56474484f4c10.png" class="mh-help"
+                                                id="qcqdx_hicon" hwnd="qcqdx">
+                                            <div class="mh-help_wnd" id="qcqdx_hwnd" style="width:450px;display:none;">
+                                                <img src="https://p.ssl.qhimg.com/t019810d5546a845dca.png"
+                                                    class="mh-arrow" style="left:81px;*left:48px">
+                                                <img src="https://p.ssl.qhimg.com/t01d192730d68b3580f.png"
+                                                    class="mh-close">
+                                                <div class="mh-content">
+                                                    指保险车辆全车被盗窃、被抢劫、被抢夺，经县级以上公安刑侦部门立案侦查证实满一定时间没有下落的，由保险公司在保险金额内予以赔偿。如果是车辆的某些零部件被盗抢，如轮胎被盗抢、车内财产被盗抢、后备箱内的物品丢失，保险公司均不负责赔偿。
+                                                    但是，对于车辆被盗抢期间内，保险车辆上零部件的损坏、丢失，保险公司一般负责赔偿。<br>
+                                                    全车盗抢险为附加险，必须在投保车辆损失险之后方可投保该险种。
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>&nbsp;</td>
+                                        <td class="mh-rtd"><input type="text" id="insr_qcqdx" class="mh-inpt mh-inpt_on"
+                                                readonly=""> 元</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="mh-ltd"><input type="checkbox" name="c_insr" id="c_blddpsx"
+                                                insr-name="blddpsx"><label>玻璃单独破碎险</label><img
+                                                src="https://p.ssl.qhimg.com/t0166f56474484f4c10.png" class="mh-help"
+                                                id="blddpsx_hicon" hwnd="blddpsx">
+                                            <div class="mh-help_wnd" id="blddpsx_hwnd"
+                                                style="width:450px;display:none;">
+                                                <img src="https://p.ssl.qhimg.com/t019810d5546a845dca.png"
+                                                    class="mh-arrow" style="left:107px;*left:50px">
+                                                <img src="https://p.ssl.qhimg.com/t01d192730d68b3580f.png"
+                                                    class="mh-close">
+                                                <div class="mh-content">
+                                                    负责赔偿保险车辆在使用过程中，发生本车玻璃发生单独破碎的保险公司按照保险合同进行赔偿。玻璃单独破碎险中的玻璃是指风档玻璃和车窗玻璃，如果车灯、车镜玻璃破碎及车辆维修过程中造成的破碎，保险公司不承担赔偿责任。<br>
+                                                    玻璃单独破碎险为附加险，必须在投保车辆损失险之后方可投保该险种。
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <input type="radio" name="jkgc" class="mh-radio"
+                                                value="0"><label>进口</label>&nbsp;&nbsp;
+                                            <input type="radio" name="jkgc" class="mh-radio mh-select" value="1"
+                                                checked=""><label>国产</label>
+                                        </td>
+                                        <td class="mh-rtd"><input type="text" id="insr_blddpsx"
+                                                class="mh-inpt mh-inpt_off" readonly="" disabled="true"> 元</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="mh-ltd"><input type="checkbox" name="c_insr" id="c_zrssx"
+                                                insr-name="zrssx"><label>自燃损失险</label><img
+                                                src="https://p.ssl.qhimg.com/t0166f56474484f4c10.png" class="mh-help"
+                                                id="zrssx_hicon" hwnd="zrssx">
+                                            <div class="mh-help_wnd" id="zrssx_hwnd" style="width:450px;display:none;">
+                                                <img src="https://p.ssl.qhimg.com/t019810d5546a845dca.png"
+                                                    class="mh-arrow" style="left:81px;*left:48px">
+                                                <img src="https://p.ssl.qhimg.com/t01d192730d68b3580f.png"
+                                                    class="mh-close">
+                                                <div class="mh-content">
+                                                    负责赔偿因本车电器、线路、供油系统发生故障及运载货物自身原因起火造成车辆本身的损失。当车辆发生部分损失，按照实际修复费用赔偿修理费。如果车辆自燃造成整体烧毁或已经失去修理价值，则按照出险时车辆的实际价值赔偿，但不超过责任限额。
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>&nbsp;</td>
+                                        <td class="mh-rtd"><input type="text" id="insr_zrssx"
+                                                class="mh-inpt mh-inpt_off" readonly="" disabled="true"> 元</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="mh-ltd"><input type="checkbox" name="c_insr" id="c_bjmptyx"
+                                                insr-name="bjmptyx" checked=""><label>不计免赔特约险</label><img
+                                                src="https://p.ssl.qhimg.com/t0166f56474484f4c10.png" class="mh-help"
+                                                id="bjmptyx_hicon" hwnd="bjmptyx">
+                                            <div class="mh-help_wnd" id="bjmptyx_hwnd"
+                                                style="width:450px;display:none;">
+                                                <img src="https://p.ssl.qhimg.com/t019810d5546a845dca.png"
+                                                    class="mh-arrow" style="left:107px;*left:50px">
+                                                <img src="https://p.ssl.qhimg.com/t01d192730d68b3580f.png"
+                                                    class="mh-close">
+                                                <div class="mh-content">
+                                                    负责赔偿在车损险和第三者责任险中应由被保险人自己承担的免赔金额，即100%赔付。<br>
+                                                    不计免赔特约险为附加险，必须在投保车损险和第三者责任险之后方可投保该险种。
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>&nbsp;</td>
+                                        <td class="mh-rtd"><input type="text" id="insr_bjmptyx"
+                                                class="mh-inpt mh-inpt_on" readonly=""> 元</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="mh-ltd"><input type="checkbox" name="c_insr" id="c_wgzrx"
+                                                insr-name="wgzrx" checked=""><label>无过责任险</label><img
+                                                src="https://p.ssl.qhimg.com/t0166f56474484f4c10.png" class="mh-help"
+                                                id="wgzrx_hicon" hwnd="wgzrx">
+                                            <div class="mh-help_wnd" id="wgzrx_hwnd" style="width:450px;display:none;">
+                                                <img src="https://p.ssl.qhimg.com/t019810d5546a845dca.png"
+                                                    class="mh-arrow" style="left:81px;*left:48px">
+                                                <img src="https://p.ssl.qhimg.com/t01d192730d68b3580f.png"
+                                                    class="mh-close">
+                                                <div class="mh-content">
+                                                    投保车辆在使用过程中，因与非机动车辆、行人发生交通事故，造成对方人员伤亡和财产的直接损毁，但这一损失不是被保险人的过失，而是由于对方的责任造成的，但保险人拒绝赔偿未果，对于保险人已经支付给对方而无法追回的费用，保险公司按《道路交通事故处理办法》负责赔偿。<br>
+                                                    无过失责任险为附加险，必须在投保第三者责任险之后方可投保该险种。
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>&nbsp;</td>
+                                        <td class="mh-rtd"><input type="text" id="insr_wgzrx" class="mh-inpt mh-inpt_on"
+                                                readonly=""> 元</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="mh-ltd"><input type="checkbox" name="c_insr" id="c_csryzrx"
+                                                insr-name="csryzrx" checked=""><label>车上人员责任险</label><img
+                                                src="https://p.ssl.qhimg.com/t0166f56474484f4c10.png" class="mh-help"
+                                                id="csryzrx_hicon" hwnd="csryzrx">
+                                            <div class="mh-help_wnd" id="csryzrx_hwnd"
+                                                style="width:450px;display:none;">
+                                                <img src="https://p.ssl.qhimg.com/t019810d5546a845dca.png"
+                                                    class="mh-arrow" style="left:107px;*left:50px">
+                                                <img src="https://p.ssl.qhimg.com/t01d192730d68b3580f.png"
+                                                    class="mh-close">
+                                                <div class="mh-content">
+                                                    保险车辆发生意外事故导致车上司乘人员伤亡造成的费用损失，以及为减少损失而支付的必要合理的施救、保护费用，由保险公司承担赔偿责任。
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>投保人数 <input type="text" id="tbrs" class="mh-inpt" style="width:30px"
+                                                value="1" last-value="1"> 人</td>
+                                        <td class="mh-rtd"><input type="text" id="insr_csryzrx"
+                                                class="mh-inpt mh-inpt_on" readonly=""> 元</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="mh-ltd mh-btmtd"><input type="checkbox" name="c_insr" id="c_cshhx"
+                                                insr-name="cshhx" checked=""><label>车身划痕险</label><img
+                                                src="https://p.ssl.qhimg.com/t0166f56474484f4c10.png" class="mh-help"
+                                                id="cshhx_hicon" hwnd="cshhx">
+                                            <div class="mh-help_wnd" id="cshhx_hwnd" style="width:450px;display:none;">
+                                                <img src="https://p.ssl.qhimg.com/t019810d5546a845dca.png"
+                                                    class="mh-arrow" style="left:81px;*left:48px">
+                                                <img src="https://p.ssl.qhimg.com/t01d192730d68b3580f.png"
+                                                    class="mh-close">
+                                                <div class="mh-content">
+                                                    车身划痕险为附加险，必须在投保车辆损失险之后方可投保该险种。
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="mh-btmtd" style="line-height:22px">
+                                            赔付额度：<br>
+                                            <input type="radio" name="csxbe" class="mh-radio"
+                                                value="0"><label>2千</label>&nbsp;&nbsp;
+                                            <input type="radio" name="csxbe" class="mh-radio mh-select" value="1"
+                                                checked=""><label>5千</label>&nbsp;&nbsp;
+                                            <input type="radio" name="csxbe" class="mh-radio"
+                                                value="2"><label>1万</label>&nbsp;&nbsp;
+                                            <input type="radio" name="csxbe" class="mh-radio"
+                                                value="3"><label>2万</label>
+                                        </td>
+                                        <td class="mh-rtd mh-btmtd"><input type="text" id="insr_cshhx"
+                                                class="mh-inpt mh-inpt_on" readonly=""> 元</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="loan_result" class="mh-r_data_group" style="padding-bottom:10px;display:none;">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td width="50%" style="position:relative;border:0;padding:0 5px 0 5px">
+                                            <span class="mh-tbl_name">每月等额还款<img
+                                                    src="https://p.ssl.qhimg.com/t0166f56474484f4c10.png"
+                                                    class="mh-help" id="debxhk_hicon" hwnd="debxhk"></span>
+                                            <div class="mh-help_wnd" id="debxhk_hwnd" style="width:200px;display:none;">
+                                                <img src="https://p.ssl.qhimg.com/t019810d5546a845dca.png"
+                                                    class="mh-arrow" style="left:87px;*left:91px">
+                                                <div></div>
+                                                <img src="https://p.ssl.qhimg.com/t01d192730d68b3580f.png"
+                                                    class="mh-close">
+                                                <div class="mh-content">
+                                                    每月等额还款即等额本息还款法，指借款人每月按相等的金额偿还贷款本息，其中每月贷款利息按月初剩余贷款本金计算并逐月结清。
+                                                </div>
+                                            </div>
+                                            <table cellpadding="0" cellspacing="0" class="mh-tbl" style="width:100%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="mh-td1">贷款总额</td>
+                                                        <td class="mh-td2"><var id="debx_dkje">0</var> 元</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="mh-td1">还款月数</td>
+                                                        <td class="mh-td2"><var id="debx_dkqx">0</var> 月</td>
+                                                    </tr>
+                                                    <tr height="50">
+                                                        <td class="mh-td1">每月还款</td>
+                                                        <td class="mh-td2"><em id="debx_myhk">0</em> 元</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="mh-td1">总支付利息</td>
+                                                        <td class="mh-td2"><em id="debx_zflx">0</em> 元</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="mh-td1">本息合计</td>
+                                                        <td class="mh-td2"><em id="debx_hkze">0</em> 元</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                        <td width="50%" style="position:relative;border:0;padding:0 5px 0 5px">
+                                            <span class="mh-tbl_name">逐月递减还款<img
+                                                    src="https://p.ssl.qhimg.com/t0166f56474484f4c10.png"
+                                                    class="mh-help" id="debjhk_hicon" hwnd="debjhk"></span>
+                                            <div class="mh-help_wnd" id="debjhk_hwnd" style="width:214px;display:none;">
+                                                <img src="https://p.ssl.qhimg.com/t019810d5546a845dca.png"
+                                                    class="mh-arrow" style="left:87px;*left:67px">
+                                                <img src="https://p.ssl.qhimg.com/t01d192730d68b3580f.png"
+                                                    class="mh-close">
+                                                <div class="mh-content">
+                                                    逐月递减还款即等额本金还款法，指本金保持相同，利息逐月递减，月还款数递减；由于每月的还款本金额固定，而利息越来越少，贷款人起初还款压力较大，但是随时间的推移每月还款数也越来越少。
+                                                </div>
+                                            </div>
+                                            <table cellpadding="0" cellspacing="0" class="mh-tbl" style="width:100%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="mh-td1">贷款总额</td>
+                                                        <td class="mh-td2"><var id="debj_dkje">0</var> 元</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="mh-td1">还款月数</td>
+                                                        <td class="mh-td2"><var id="debj_dkqx">0</var> 月</td>
+                                                    </tr>
+                                                    <tr height="50">
+                                                        <td class="mh-td1">首月还款</td>
+                                                        <td class="mh-td2" style="line-height:20px"><em
+                                                                id="debj_syhk">0</em> 元<br>每月递减：<b id="debj_mydj">0</b>
+                                                            元</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="mh-td1">总支付利息</td>
+                                                        <td class="mh-td2"><em id="debj_zflx">0</em> 元</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="mh-td1">本息合计</td>
+                                                        <td class="mh-td2"><em id="debj_hkze">0</em> 元</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="result_footer" class="mh-result_footer">
+                        <div class="mh-btm-act-content gclearfix">
+                            <div class="mh-btm-img-box">
+                                <a target="_blank"
+                                    href="https://www.xjietiao.com?utm_source=search360&utm_medium=chedaijisuanqi_tupian">
+                                    <img src="https://p.ssl.qhimg.com/t019c321885cd395c8a.jpg"></a>
+                                <div class="mh-btm-txt">360进军消费贷，最高可借20万</div>
+                            </div>
+                            <div class="mh-btm-link-box">
+                                <a target="_blank"
+                                    href="https://www.xjietiao.com/news-detail.html?id=bdbda4626cd243c8a3420b60bb99c7e7&utm_source=search360&utm_medium=chedaijisuanqi_xinwen">贷款买车可以贷几年？贷款买车流程介绍</a>
+                                <a target="_blank"
+                                    href="https://www.xjietiao.com/news-detail.html?id=ba64f08b3ac64e0ba3a99066f59e5cd4&utm_source=search360&utm_medium=chedaijisuanqi_xinwen">买车选择&ldquo;全款&rdquo;还是&ldquo;贷款&rdquo;？
+                                    到底谁更聪明！</a>
+                                <a target="_blank"
+                                    href="https://www.xjietiao.com/news-detail.html?id=34ffaf1050d846e68a1ce83dbe8958a6&utm_source=search360&utm_medium=chedaijisuanqi_xinwen">买个车20万，给你一个贷款买车理由，要不要？</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    var buyCarMethod = 0,
+        payRatio = 0.3,
+        loanPeriods = 12,
+        loanBaseRateArr = [4.35, 4.35, 4.75, 4.75, 4.75, 4.75],
+        loanRateDiscount = 1,
+        city = "北京",
+        carPrice = 0,
+        seatsSelect = 0,
+        allCostArr = [0, 0, 0],
+        taxArr = [0, 0, 0, 0],
+        insrArr = [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        gSpfy = 500,
+        ccsArr = [300, 420, 480, 900, 1920, 3480, 5280],
+        szxBfArr0 = [516, 746, 850, 924, 1043, 1252, 1630],
+        szxBfArr1 = [478, 674, 761, 821, 919, 1094, 1425],
+        clssxJcBfArr = [459, 550],
+        clssxFlArr = [0.01088, 0.01088],
+        qcqdxJcBfArr = [102, 119],
+        qcqdxFlArr = [0.00451, 0.00374],
+        blddpsxFlArr0 = [0.00264, 0.00162],
+        blddpsxFlArr1 = [0.00272,
+            0.0017
+        ],
+        zrssxFl = 0.0015,
+        cshhxBfArr0 = [400, 570, 760, 1140],
+        cshhxBfArr1 = [585, 900, 1170, 1780],
+        cshhxBfArr2 = [850, 1100, 1500, 2250],
+        BLinkStatus = 0,
+        browserCore = null;
+    _loader.use("jquery", function () {
+
+        var getQueryString = function (name) {
+            return $("input[name=" + name + "]").val();
+        }
+
+        if (getQueryString("tab") == "1") {
+            tab1Show();
+        } else if (getQueryString("tab") == "2") {
+            tab2Show();
+        } else if (getQueryString("tab") == "3") {
+            tab3Show();
+        }
+
+        function tab1Show() {
+            0 != buyCarMethod && ($("#fullpaybuy_tab").removeClass("mh-normal_tab").addClass("mh-select_tab")
+                .siblings(".mh-tab").removeClass("mh-select_tab").addClass("mh-normal_tab"), $(
+                    "#pay_ratio_line").hide(), $("#loan_period_line").hide(), $("#rate_discount_line")
+                .hide(), $("#link_1_1").attr("style", ""), $("#link_1_2").attr("style",
+                    "display:none;"), $("#link_1_3").attr("style", "display:none;"), $("#link_2_1").attr(
+                    "style", ""), $("#link_2_2").attr("style", "display:none;"), $("#total_item_1").show(),
+                $("#total_item_2").hide(), $("#total_item_3").hide(), $("#tax_item").show(), $("#jqx_item")
+                .hide(), $("#insurance_item").show(), $("#atc_relate_1").show(), $("#atc_relate_2").hide(),
+                $("#atc_relate_3").hide(), $("#fullpaybuy_atc_recmd").show(), $("#loanbuy_atc_recmd")
+            .hide(), $("#insrcalc_atc_recmd").hide(), $("#fullpaybuy_atc_recmd_2").show(), $(
+                    "#loanbuy_atc_recmd_2").hide(),
+                $("#insrcalc_atc_recmd_2").hide(), $("#tax_tab").show(), $("#loan_tab").hide(), $(
+                    "#citylist").hide(), buyCarMethod = 0)
+        }
+
+        function tab2Show() {
+            1 != buyCarMethod && ($("#loanbuy_tab").removeClass("mh-normal_tab").addClass("mh-select_tab")
+                .siblings(".mh-tab").removeClass("mh-select_tab").addClass("mh-normal_tab"), $(
+                    "#pay_ratio_line").show(), $("#loan_period_line").show(), $("#rate_discount_line")
+                .show(), $("#link_1_1").attr("style", "display:none;"), $("#link_1_2").attr("style", ""), $(
+                    "#link_1_3").attr("style",
+                    "display:none;"), $("#link_2_1").attr("style", "display:none;"), $("#link_2_2").attr(
+                    "style", "display:none;"), $("#total_item_1").hide(), $("#total_item_2").show(), $(
+                    "#total_item_3").hide(), $("#tax_item").show(), $("#jqx_item").hide(), $(
+                    "#insurance_item").show(), $("#atc_relate_1").hide(), $("#atc_relate_2").show(), $(
+                    "#atc_relate_3").hide(), $("#fullpaybuy_atc_recmd").hide(), $("#loanbuy_atc_recmd")
+                .show(), $("#insrcalc_atc_recmd").hide(), $("#fullpaybuy_atc_recmd_2").hide(), $(
+                    "#loanbuy_atc_recmd_2").show(),
+                $("#insrcalc_atc_recmd_2").hide(), $("#tax_tab").show(), $("#loan_tab").show(), $(
+                    "#citylist").hide(), buyCarMethod = 1)
+        }
+
+        function tab3Show() {
+            2 != buyCarMethod && ($("#insrcalc_tab").removeClass("mh-normal_tab").addClass("mh-select_tab")
+                .siblings(".mh-tab").removeClass("mh-select_tab").addClass("mh-normal_tab"), $(
+                    "#pay_ratio_line").hide(), $("#loan_period_line").hide(), $("#rate_discount_line")
+                .hide(), $("#link_1_1").attr("style", "display:none;"), $("#link_1_2").attr("style",
+                    "display:none;"), $("#link_1_3").attr("style",
+                    ""), $("#link_2_1").attr("style", "display:none;"), $("#link_2_2").attr("style", ""), $(
+                    "#total_item_1").hide(), $("#total_item_2").hide(), $("#total_item_3").show(), $(
+                    "#tax_item").hide(), $("#jqx_item").show(), $("#insurance_item").show(), $(
+                    "#atc_relate_1").hide(), $("#atc_relate_2").hide(), $("#atc_relate_3").show(), $(
+                    "#fullpaybuy_atc_recmd").hide(), $("#loanbuy_atc_recmd").hide(), $(
+                    "#insrcalc_atc_recmd").show(), $("#fullpaybuy_atc_recmd_2").hide(), $(
+                    "#loanbuy_atc_recmd_2").hide(), $("#insrcalc_atc_recmd_2").show(),
+                $("#tax_tab").hide(), $("#loan_tab").hide(), $("#citylist").hide(), buyCarMethod = 2)
+        }
+
+        browserCore = getBrowserCore();
+        if ("msie" == browserCore.name) {
+            var a = parseInt(browserCore.version);
+            7 >= a && ($("#pay_ratio_select, #loan_period_select, #rate_discount_select").wrap(
+                '<i class="mh-long_select_wrapper"><i class="mh-long_select_shelter"></i></i>'), $(
+                ".mh-input_box:not(.money_input, .rate_input)").focus(function () {
+                $(this).css("border-color", "#66afe9").css("outline", "0")
+            }), $(".mh-input_box:not(.money_input, .rate_input)").blur(function () {
+                $(this).css("border-color",
+                    "#ccc")
+            }));
+            6 >= a && ($(".mh-btn_group .mh-cal_btn").hover(function () {
+                    $(this).css("background", "#0099FF")
+                }, function () {
+                    $(this).css("background", "#5385E0")
+                }), $(".mh-btn_group .mh-reset_btn").hover(function () {
+                    $(this).css("background", "#fafafa")
+                }, function () {
+                    $(this).css("background", "#F6F6F6")
+                }), $(".mh-input_box[disabled], .mh-input_box[readonly]").css("background-color", "#F6F6F6")
+                .css("color", "#E285AB"));
+            9 == a ? ($("#insr_result .mh-insr_config_tabs i").css("font-size", "12px"), $(
+                    ".mh-input_form .mh-line label input.mh-seats_radio").css("margin-top",
+                    "0px"), $("#debxhk_hwnd .mh-arrow").css("left", "83px"), $("#debjhk_hwnd .mh-arrow")
+                .css("left", "83px")) : 8 == a ? ($("#insr_result .mh-insr_config_tabs i").css("font-size",
+                    "12px"), $("#debxhk_hwnd .mh-arrow").css("left", "88px"), $("#debjhk_hwnd .mh-arrow")
+                .css("left", "88px")) : 7 == a ? ($("#insr_result .mh-insr_config_tabs i").css("font-size",
+                    "12px"), $("#debxhk_hwnd .mh-arrow").css("left", "88px"), $("#debjhk_hwnd .mh-arrow")
+                .css("left", "88px")) : 6 >= a && ($("#insr_result .mh-insr_config_tabs i").css("font-size",
+                    "12px"),
+                $("#debxhk_hwnd .mh-arrow").css("left", "88px"), $("#debjhk_hwnd .mh-arrow").css("left",
+                    "88px"))
+        }
+        $("#tax_spfy").val("" + gSpfy).attr("last-value", "" + gSpfy);
+        $("#tax_ccs").val("" + ccsArr[1]);
+        $("#fullpaybuy_tab").click(function () {
+            0 != buyCarMethod && ($(this).removeClass("mh-normal_tab").addClass("mh-select_tab")
+                .siblings(".mh-tab").removeClass("mh-select_tab").addClass("mh-normal_tab"), $(
+                    "#pay_ratio_line").hide(), $("#loan_period_line").hide(), $(
+                    "#rate_discount_line").hide(), $("#link_1_1").attr("style", ""), $("#link_1_2")
+                .attr("style",
+                    "display:none;"), $("#link_1_3").attr("style", "display:none;"), $("#link_2_1")
+                .attr("style", ""), $("#link_2_2").attr("style", "display:none;"), $(
+                    "#total_item_1").show(), $("#total_item_2").hide(), $("#total_item_3").hide(),
+                $("#tax_item").show(), $("#jqx_item").hide(), $("#insurance_item").show(), $(
+                    "#atc_relate_1").show(), $("#atc_relate_2").hide(), $("#atc_relate_3").hide(),
+                $("#fullpaybuy_atc_recmd").show(), $("#loanbuy_atc_recmd").hide(), $(
+                    "#insrcalc_atc_recmd").hide(), $("#fullpaybuy_atc_recmd_2").show(), $(
+                    "#loanbuy_atc_recmd_2").hide(),
+                $("#insrcalc_atc_recmd_2").hide(), $("#tax_tab").show(), $("#loan_tab").hide(), $(
+                    "#citylist").hide(), buyCarMethod = 0)
+        });
+        $("#loanbuy_tab").click(function () {
+            1 != buyCarMethod && ($(this).removeClass("mh-normal_tab").addClass("mh-select_tab")
+                .siblings(".mh-tab").removeClass("mh-select_tab").addClass("mh-normal_tab"), $(
+                    "#pay_ratio_line").show(), $("#loan_period_line").show(), $(
+                    "#rate_discount_line").show(), $("#link_1_1").attr("style", "display:none;"), $(
+                    "#link_1_2").attr("style", ""), $("#link_1_3").attr("style",
+                    "display:none;"), $("#link_2_1").attr("style", "display:none;"), $("#link_2_2")
+                .attr("style", "display:none;"), $("#total_item_1").hide(), $("#total_item_2")
+                .show(), $("#total_item_3").hide(), $("#tax_item").show(), $("#jqx_item").hide(), $(
+                    "#insurance_item").show(), $("#atc_relate_1").hide(), $("#atc_relate_2").show(),
+                $("#atc_relate_3").hide(), $("#fullpaybuy_atc_recmd").hide(), $(
+                    "#loanbuy_atc_recmd").show(), $("#insrcalc_atc_recmd").hide(), $(
+                    "#fullpaybuy_atc_recmd_2").hide(), $("#loanbuy_atc_recmd_2").show(),
+                $("#insrcalc_atc_recmd_2").hide(), $("#tax_tab").show(), $("#loan_tab").show(), $(
+                    "#citylist").hide(), buyCarMethod = 1)
+        });
+        $("#insrcalc_tab").click(function () {
+            2 != buyCarMethod && ($(this).removeClass("mh-normal_tab").addClass("mh-select_tab")
+                .siblings(".mh-tab").removeClass("mh-select_tab").addClass("mh-normal_tab"), $(
+                    "#pay_ratio_line").hide(), $("#loan_period_line").hide(), $(
+                    "#rate_discount_line").hide(), $("#link_1_1").attr("style", "display:none;"), $(
+                    "#link_1_2").attr("style", "display:none;"), $("#link_1_3").attr("style",
+                    ""), $("#link_2_1").attr("style", "display:none;"), $("#link_2_2").attr("style",
+                    ""), $("#total_item_1").hide(), $("#total_item_2").hide(), $("#total_item_3")
+                .show(), $("#tax_item").hide(), $("#jqx_item").show(), $("#insurance_item").show(),
+                $("#atc_relate_1").hide(), $("#atc_relate_2").hide(), $("#atc_relate_3").show(), $(
+                    "#fullpaybuy_atc_recmd").hide(), $("#loanbuy_atc_recmd").hide(), $(
+                    "#insrcalc_atc_recmd").show(), $("#fullpaybuy_atc_recmd_2").hide(), $(
+                    "#loanbuy_atc_recmd_2").hide(), $("#insrcalc_atc_recmd_2").show(),
+                $("#tax_tab").hide(), $("#loan_tab").hide(), $("#citylist").hide(), buyCarMethod = 2
+                )
+        });
+        $("#city_select").click(function () {
+            $("#citylist").show()
+        });
+        $("#citylist .mh-close").click(function () {
+            $("#citylist").hide()
+        });
+        $("#citylist li").click(function () {
+            var a = $(this).text();
+            $("#city_select i").text(a);
+            city = a;
+            $("#citylist").hide()
+        });
+        $("#citylist").mouseleave(function () {
+            $(this).hide()
+        });
+        $("#view_tax_detail").click(function () {
+            $(".mh-calc_page").hide();
+            $(".mh-result_page").show();
+            $("#tax_tab").click()
+        });
+        $("#view_insr_detail").click(function () {
+            $(".mh-calc_page").hide();
+            $(".mh-result_page").show();
+            $("#insr_tab").click()
+        });
+        $("#view_loan_detail").click(function () {
+            $(".mh-calc_page").hide();
+            $(".mh-result_page").show();
+            $("#loan_tab").click()
+        });
+        $("#tax_tab").on("click", function () {
+            0 > $(this).attr("class").indexOf("mh-select_tab") && ($(".mh-help_wnd").hide(), $(this)
+                .removeClass("mh-normal_tab").addClass("mh-select_tab").siblings(".mh-tab")
+                .removeClass("mh-select_tab").addClass("mh-normal_tab"), $("#tax_result").show()
+                .siblings(".mh-r_data_group").hide(), $(".mh-result_body").css("padding-top",
+                    "15px").css("padding-bottom", "10px"))
+        });
+        $("#insr_tab").on("click", function () {
+            0 > $(this).attr("class").indexOf("mh-select_tab") && ($(".mh-help_wnd").hide(), $(this)
+                .removeClass("mh-normal_tab").addClass("mh-select_tab").siblings(".mh-tab")
+                .removeClass("mh-select_tab").addClass("mh-normal_tab"), $("#insr_result").show()
+                .siblings(".mh-r_data_group").hide(), $(".mh-result_body").css("padding-top", "5px")
+                .css("padding-bottom", "10px"))
+        });
+        $("#loan_tab").on("click", function () {
+            0 > $(this).attr("class").indexOf("mh-select_tab") &&
+                ($(".mh-help_wnd").hide(), $(this).removeClass("mh-normal_tab").addClass(
+                        "mh-select_tab").siblings(".mh-tab").removeClass("mh-select_tab").addClass(
+                        "mh-normal_tab"), $("#loan_result").show().siblings(".mh-r_data_group").hide(),
+                    $(".mh-result_body").css("padding-top", "15px").css("padding-bottom", "10px"))
+        });
+        $("#backto_calc").click(function () {
+            $(".mh-help_wnd").hide();
+            $(".mh-result_page").hide();
+            $(".mh-calc_page").show()
+        });
+        $(".mh-config_radio").click(function () {
+            if (0 > $(this).attr("class").indexOf("mh-select")) {
+                var a =
+                    $(this).attr("config-type");
+                insr_config(a);
+                insr_calc();
+                allcost_update();
+                $(".mh-config_radio").removeClass("mh-select");
+                $(this).addClass("mh-select");
+                $('li[config-type="' + a + '"]').removeClass("mh-off").addClass("mh-on").siblings("li")
+                    .removeClass("mh-on").addClass("mh-off")
+            }
+        });
+        $(".mh-insr_config_tabs li").click(function () {
+            if (0 > $(this).attr("class").indexOf("mh-on")) {
+                var a = $(this).attr("config-type");
+                insr_config(a);
+                insr_calc();
+                allcost_update();
+                $(this).removeClass("mh-off").addClass("mh-on").siblings("li").removeClass("mh-on")
+                    .addClass("mh-off");
+                $(".mh-config_radio").removeAttr("checked").removeClass("mh-select");
+                $('input[config-type="' + a + '"]').attr("checked", "checked").addClass("mh-select")
+            }
+        });
+        $('input[name="pl"]').click(function () {
+            0 > $(this).attr("class").indexOf("mh-select") && (ccs_calc(), tax_update(),
+            allcost_update(), $('input[name="pl"]').removeClass("mh-select"), $(this).addClass(
+                "mh-select"))
+        });
+        $("#tax_spfy").blur(function () {
+            var a = trim($(this).val());
+            if (a != $(this).attr("last-value")) {
+                if ("" == a || 0 >= parseFloat(a)) $(this).val("" + gSpfy), a =
+                    gSpfy;
+                $(this).attr("last-value", "" + a);
+                spfy_calc();
+                tax_update();
+                allcost_update()
+            }
+        });
+        $('input[name="c_insr"]').click(function () {
+            var a = $(this).attr("insr-name");
+            $(this).is(":checked") ? (insr_checkbox(a, !0), window[a + "_calc"](), "szx" == a ? ($(
+                    "#c_bjmptyx").removeAttr("disabled"), $("#c_wgzrx").removeAttr("disabled")) :
+                "clssx" == a && ($("#c_qcqdx").removeAttr("disabled"), $("#c_bjmptyx").removeAttr(
+                    "disabled"), $("#c_cshhx").removeAttr("disabled"))) : (insr_checkbox(a, !1),
+                "szx" == a ? (insr_checkbox("bjmptyx", !1), $("#c_bjmptyx").attr("disabled",
+                    "disabled"), insr_checkbox("wgzrx", !1), $("#c_wgzrx").attr("disabled",
+                    "disabled")) : "clssx" == a && (insr_checkbox("qcqdx", !1), $("#c_qcqdx").attr(
+                    "disabled", "disabled"), insr_checkbox("bjmptyx", !1), $("#c_bjmptyx").attr(
+                    "disabled", "disabled"), insr_checkbox("cshhx", !1), $("#c_cshhx").attr(
+                    "disabled", "disabled")));
+            insr_update();
+            allcost_update()
+        });
+        $('input[name="szxbe"]').click(function () {
+            0 > $(this).attr("class").indexOf("mh-select") && ($("#c_szx").is(":checked") && (
+                szx_calc(), $("#c_bjmptyx").is(":checked") && bjmptyx_calc(),
+                    $("#c_wgzrx").is(":checked") && wgzrx_calc(), insr_update(), allcost_update()),
+                $('input[name="szxbe"]').removeClass("mh-select"), $(this).addClass("mh-select"))
+        });
+        $('input[name="jkgc"]').click(function () {
+            0 > $(this).attr("class").indexOf("mh-select") && ($("#c_blddpsx").is(":checked") && (
+                    blddpsx_calc(), insr_update(), allcost_update()), $('input[name="jkgc"]')
+                .removeClass("mh-select"), $(this).addClass("mh-select"))
+        });
+        $('input[name="csxbe"]').click(function () {
+            0 > $(this).attr("class").indexOf("mh-select") && ($("#c_cshhx").is(":checked") &&
+                (cshhx_calc(), insr_update(), allcost_update()), $('input[name="csxbe"]')
+                .removeClass("mh-select"), $(this).addClass("mh-select"))
+        });
+        $("#tbrs").blur(function () {
+            var a = trim($(this).val());
+            if (a != $(this).attr("last-value")) {
+                if ("" == a || 0 >= parseFloat(a)) $(this).val("1"), a = 1;
+                $(this).attr("last-value", "" + a);
+                csryzrx_calc();
+                insr_update();
+                allcost_update()
+            }
+        });
+        $("#pay_ratio_select").change(function () {
+            payRatio = parseFloat($(this).find("option:selected").attr("data-payratio"))
+        });
+        $("#loan_period_select").change(function () {
+            loanPeriods =
+                parseInt($(this).find("option:selected").attr("data-loanperiod"));
+            "auto" == $("#rate_discount_select").attr("input-method") && loanRateUpdate()
+        });
+        $("#rate_discount_select").change(function () {
+            var a = $(this).val(); - 1 == a ? ($("#loan_rate").val(""), $(this).attr("input-method",
+                "hand")) : 0 <= a && ("hand" == $(this).attr("input-method") && $(this).attr(
+                "input-method", "auto"), loanRateDiscount = parseFloat($(this).find(
+                "option:selected").attr("data-discount")), loanRateUpdate())
+        });
+        $("#car_price").focus(function () {
+            $(this).removeClass("mh-normal_border").removeClass("mh-warning_border").addClass(
+                "mh-focus_border");
+            $("#car_price_warning").hide()
+        });
+        $("#loan_rate").focus(function () {
+            $(this).removeClass("mh-normal_border").removeClass("mh-warning_border").addClass(
+                "mh-focus_border")
+        });
+        $("#car_price, #loan_rate").blur(function () {
+            $(this).removeClass("mh-focus_border").removeClass("mh-warning_border").addClass(
+                "mh-normal_border")
+        });
+        $(".mh-help").click(function () {
+            var a = $(this).attr("hwnd");
+            $(".mh-help_wnd").hide();
+            $("#" + a + "_hwnd").show()
+        });
+        $(".mh-help_wnd .mh-close").click(function () {
+            $(this).parent().hide()
+        });
+        $(".mh-help_wnd").mouseleave(function () {
+            $(this).hide()
+        });
+        $('[link-type="A_Link"]').click(function () {
+            0 == BLinkStatus && ($('[link-type="B_Link"]').each(function () {
+                $(this).attr("href", $(this).attr("href2"))
+            }), BLinkStatus = 1)
+        });
+        $('[link-type="B_Link"]').click(function () {
+            0 == BLinkStatus && ($(this).addClass("clicked"), $('[link-type="B_Link"]:not(.clicked)')
+                .each(function () {
+                    $(this).attr("href", $(this).attr("href2"))
+                }), BLinkStatus = 1)
+        });
+        $("#calculate").click(function () {
+            userInputCheck() && (carPrice = Math.round(parseFloat(trim($("#car_price").val()))),
+                seatsSelect = $('input[name="seats_radio"]:checked').val(),
+                allcost_calc())
+        });
+        $("#reset").click(function () {
+            $("#car_price").val("");
+            $("#pay_ratio_select").val("1");
+            payRatio = 0.3;
+            $("#pay_ratio_select").change();
+            $("#loan_period_select").val("1");
+            loanPeriods = 12;
+            $("#loan_period_select").change();
+            $("#rate_discount_select").val("4");
+            loanRateDiscount = 1;
+            $("#rate_discount_select").change()
+        })
+    });
+
+    function insr_config(a) {
+        insr_checkbox("szx", !0);
+        insr_checkbox("clssx", !0);
+        insr_checkbox("wgzrx", !0);
+        insr_checkbox("csryzrx", !0);
+        insr_checkbox("cshhx", !0);
+        "basic" == a ? (insr_checkbox("qcqdx", !1), insr_checkbox("blddpsx", !1), insr_checkbox("zrssx", !1),
+            insr_checkbox("bjmptyx", !1)) : "afford" == a ? (insr_checkbox("qcqdx", !0), insr_checkbox("blddpsx", !
+            1), insr_checkbox("zrssx", !1), insr_checkbox("bjmptyx", !0)) : "all" == a && (insr_checkbox("qcqdx", !
+            0), insr_checkbox("blddpsx", !0), insr_checkbox("zrssx", !0), insr_checkbox("bjmptyx",
+            !0));
+        $('input[name="c_insr"]').removeAttr("disabled")
+    }
+
+    function insr_checkbox(a, b) {
+        b ? ($("#c_" + a).removeAttr("disabled"), $("#c_" + a).attr("checked", "checked"), $("#insr_" + a).removeAttr(
+            "disabled"), $("#insr_" + a).removeClass("mh-inpt_off").addClass("mh-inpt_on")) : ($("#c_" + a)
+            .removeAttr("checked"), $("#insr_" + a).attr("disabled", "disabled"), $("#insr_" + a).removeClass(
+                "mh-inpt_on").addClass("mh-inpt_off"), $("#insr_" + a).val(""))
+    }
+
+    function allcost_calc() {
+        var a = 0;
+        if (0 == buyCarMethod) a = carPrice + tax_calc() + insr_calc(), $("#total_val_1").text("" + a);
+        else if (1 == buyCarMethod) {
+            a = carPrice + tax_calc() + insr_calc() + loan_calc();
+            $("#total_val_2").text("" + a);
+            var b = carPrice * payRatio + allCostArr[0] + allCostArr[1];
+            $("#pay_val").text("" + Math.round(b))
+        } else 2 == buyCarMethod && (a = compulsory_insr_calc() + insr_calc(), $("#total_val_3").text("" + a));
+        return a
+    }
+
+    function allcost_update() {
+        var a = 0;
+        if (0 == buyCarMethod) a = carPrice + allCostArr[0] + allCostArr[1], $("#total_val_1").text("" + a);
+        else if (1 == buyCarMethod) {
+            a = carPrice + allCostArr[0] + allCostArr[1] + allCostArr[2];
+            $("#total_val_2").text("" + a);
+            var b = carPrice * payRatio + allCostArr[0] + allCostArr[1];
+            $("#pay_val").text("" + Math.round(b))
+        } else 2 == buyCarMethod && (a = compulsory_insr_calc() + allCostArr[1], $("#total_val_3").text("" + a));
+        return a
+    }
+
+    function tax_calc() {
+        var a = gzs_calc() + spfy_calc() + ccs_calc() + jqx_calc();
+        $("#tax_val").text("" + a);
+        $("#tax_sum").val("" + a);
+        return allCostArr[0] = a
+    }
+
+    function tax_update() {
+        var a = taxArr[0] + taxArr[1] + taxArr[2] + taxArr[3];
+        $("#tax_val").text("" + a);
+        $("#tax_sum").val("" + a);
+        return allCostArr[0] = a
+    }
+
+    function insr_calc() {
+        var a = 0;
+        $("#c_szx").is(":checked") && (a += szx_calc());
+        $("#c_clssx").is(":checked") && (a += clssx_calc());
+        $("#c_qcqdx").is(":checked") && (a += qcqdx_calc());
+        $("#c_blddpsx").is(":checked") && (a += blddpsx_calc());
+        $("#c_zrssx").is(":checked") && (a += zrssx_calc());
+        $("#c_bjmptyx").is(":checked") && (a += bjmptyx_calc());
+        $("#c_wgzrx").is(":checked") && (a += wgzrx_calc());
+        $("#c_csryzrx").is(":checked") && (a += csryzrx_calc());
+        $("#c_cshhx").is(":checked") && (a += cshhx_calc());
+        $("#insr_val").text("" + a);
+        $("#insr_sum").text("" +
+            a + "元");
+        return allCostArr[1] = a
+    }
+
+    function insr_update() {
+        var a = 0;
+        $("#c_szx").is(":checked") && (a += insrArr[0]);
+        $("#c_clssx").is(":checked") && (a += insrArr[1]);
+        $("#c_qcqdx").is(":checked") && (a += insrArr[2]);
+        $("#c_blddpsx").is(":checked") && (a += insrArr[3]);
+        $("#c_zrssx").is(":checked") && (a += insrArr[4]);
+        $("#c_bjmptyx").is(":checked") && (a += insrArr[5]);
+        $("#c_wgzrx").is(":checked") && (a += insrArr[6]);
+        $("#c_csryzrx").is(":checked") && (a += insrArr[7]);
+        $("#c_cshhx").is(":checked") && (a += insrArr[8]);
+        $("#insr_val").text("" + a);
+        $("#insr_sum").text("" + a + "元");
+        return allCostArr[1] = a
+    }
+
+    function compulsory_insr_calc() {
+        var a = 0;
+        0 == seatsSelect ? a = 950 : 1 == seatsSelect && (a = 1100);
+        $("#jqx_val").text("" + a);
+        return a
+    }
+
+    function gzs_calc() {
+        var a = 0.1 * (carPrice / 1.17),
+            a = Math.round(a);
+        $("#tax_gzs").val("" + a);
+        return taxArr[0] = a
+    }
+
+    function spfy_calc() {
+        var a = parseFloat(trim($("#tax_spfy").val())),
+            a = Math.round(a);
+        return taxArr[1] = a
+    }
+
+    function ccs_calc() {
+        var a = $('input[name="pl"]:checked').val(),
+            a = ccsArr[a];
+        $("#tax_ccs").val("" + a);
+        return taxArr[2] = a
+    }
+
+    function jqx_calc() {
+        var a = 0;
+        0 == seatsSelect ? a = 950 : 1 == seatsSelect && (a = 1100);
+        $("#tax_jqx").val("" + a);
+        return taxArr[3] = a
+    }
+
+    function szx_calc() {
+        var a = $('input[name="szxbe"]:checked').val(),
+            b = 0;
+        0 == seatsSelect ? b = szxBfArr0[a] : 1 == seatsSelect && (b = szxBfArr1[a]);
+        $("#insr_szx").val("" + b);
+        return insrArr[0] = b
+    }
+
+    function clssx_calc() {
+        var a = 0;
+        0 == seatsSelect ? a = clssxJcBfArr[0] + carPrice * clssxFlArr[0] : 1 == seatsSelect && (a = clssxJcBfArr[1] +
+            carPrice * clssxFlArr[0]);
+        a = Math.round(a);
+        $("#insr_clssx").val("" + a);
+        return insrArr[1] = a
+    }
+
+    function qcqdx_calc() {
+        var a = 0;
+        0 == seatsSelect ? a = qcqdxJcBfArr[0] + carPrice * qcqdxFlArr[0] : 1 == seatsSelect && (a = qcqdxJcBfArr[1] +
+            carPrice * qcqdxFlArr[1]);
+        a = Math.round(a);
+        $("#insr_qcqdx").val("" + a);
+        return insrArr[2] = a
+    }
+
+    function blddpsx_calc() {
+        var a = $('input[name="jkgc"]:checked').val(),
+            b = 0;
+        0 == seatsSelect ? b = carPrice * blddpsxFlArr0[a] : 1 == seatsSelect && (b = carPrice * blddpsxFlArr1[a]);
+        b = Math.round(b);
+        $("#insr_blddpsx").val("" + b);
+        return insrArr[3] = b
+    }
+
+    function zrssx_calc() {
+        var a = carPrice * zrssxFl,
+            a = Math.round(a);
+        $("#insr_zrssx").val("" + a);
+        return insrArr[4] = a
+    }
+
+    function bjmptyx_calc() {
+        var a = 0.2 * (insrArr[0] + insrArr[1]),
+            a = Math.round(a);
+        $("#insr_bjmptyx").val("" + a);
+        return insrArr[5] = a
+    }
+
+    function wgzrx_calc() {
+        var a = 0.2 * insrArr[0],
+            a = Math.round(a);
+        $("#insr_wgzrx").val("" + a);
+        return insrArr[6] = a
+    }
+
+    function csryzrx_calc() {
+        var a = 50 * parseInt(trim($("#tbrs").val()));
+        $("#insr_csryzrx").val("" + a);
+        return insrArr[7] = a
+    }
+
+    function cshhx_calc() {
+        var a = $('input[name="csxbe"]:checked').val(),
+            b = 0;
+        3E5 >= carPrice ? b = cshhxBfArr0[a] : 3E5 < carPrice && 5E5 >= carPrice ? b = cshhxBfArr1[a] : 5E5 <
+            carPrice && (b = cshhxBfArr2[a]);
+        $("#insr_cshhx").val("" + b);
+        return insrArr[8] = b
+    }
+
+    function loan_calc() {
+        var a = parseFloat(trim($("#loan_rate").val())) / 1200,
+            b = carPrice * (1 - payRatio),
+            b = Math.round(100 * b) / 100,
+            c = loan_debx_calc(b, a);
+        loan_debj_calc(b, a);
+        return allCostArr[2] = c
+    }
+
+    function loan_debx_calc(a, b) {
+        var c = a * loanPeriods * b * Math.pow(1 + b, loanPeriods) / (Math.pow(1 + b, loanPeriods) - 1) - a,
+            c = Math.round(100 * c) / 100,
+            d;
+        d = Math.round(100 * (c + a)) / 100;
+        var e = d / loanPeriods,
+            e = Math.round(100 * e) / 100;
+        $("#debx_dkje").text("" + a);
+        $("#debx_dkqx").text("" + loanPeriods);
+        $("#debx_myhk").text("" + e);
+        $("#debx_zflx").text("" + c);
+        $("#debx_hkze").text("" + d);
+        $("#repay_val").text("" + Math.round(e));
+        return Math.round(c)
+    }
+
+    function loan_debj_calc(a, b) {
+        var c = a * b * (loanPeriods + 1) / 2,
+            c = Math.round(100 * c) / 100,
+            d;
+        d = Math.round(100 * (c + a)) / 100;
+        var e = a * (b * loanPeriods + 1) / loanPeriods,
+            e = Math.round(100 * e) / 100,
+            f = a * b / loanPeriods,
+            f = Math.round(100 * f) / 100;
+        $("#debj_dkje").text("" + a);
+        $("#debj_dkqx").text("" + loanPeriods);
+        $("#debj_syhk").text("" + e);
+        $("#debj_mydj").text("" + f);
+        $("#debj_zflx").text("" + c);
+        $("#debj_hkze").text("" + d)
+    }
+
+    function loanRateUpdate() {
+        var a = loanBaseRateArr[Math.floor(loanPeriods / 12)],
+            a = a * loanRateDiscount,
+            a = Math.round(100 * a) / 100;
+        $("#loan_rate").val("" + a)
+    }
+
+    function userInputCheck() {
+        var a = carPriceInputCheck();
+        if (0 == buyCarMethod) return a ? !0 : !1;
+        if (1 == buyCarMethod) {
+            var b = loanRateInputCheck();
+            return a && b ? !0 : !1
+        }
+        if (2 == buyCarMethod) return a ? !0 : !1
+    }
+
+    function carPriceInputCheck() {
+        var a = trim($("#car_price").val()),
+            b = /^\d*[\.]?\d*$/;
+        if ("" != a && b.test(a)) return !0;
+        $("#car_price").removeClass("mh-normal_border").removeClass("mh-focus_border").addClass("mh-warning_border");
+        $("#car_price_warning").show();
+        return !1
+    }
+
+    function loanRateInputCheck() {
+        var a = trim($("#loan_rate").val()),
+            b = /^\d*[\.]?\d*$/;
+        if ("" != a && b.test(a)) return !0;
+        $("#loan_rate").removeClass("mh-normal_border").removeClass("mh-focus_border").addClass("mh-warning_border");
+        return !1
+    }
+
+    function trim(a) {
+        return a.replace(/(^\s*)|(\s*$)/g, "")
+    }
+
+    function getBrowserCore() {
+        var a = {},
+            b = uaMatch();
+        if (0 < b.browser.length)
+            if ("msie" == b.browser) {
+                if (a.name = b.browser, a.version = b.version, b = parseInt(b.version), 8 <= b) {
+                    var c = !1,
+                        d = document.documentMode;
+                    "IE=8" == d ? (a.version = "8.0", c = !0) : "IE=EmulateIE8" == d ? (a.version = "8.0", c = !0) :
+                        "IE=7" == d ? (a.version = "7.0", c = !0) : "IE=EmulateIE7" == d ? (a.version = "7.0", c = !0) :
+                        "IE=5" == d && (a.version = "5.0", c = !0);
+                    9 <= b && !c && ("IE=9" == d ? (a.version = "9.0", c = !0) : "IE=EmulateIE9" == d && (a.version =
+                        "9.0", c = !0));
+                    10 <= b && !c && ("IE=10" == d ? a.version = "10.0" :
+                        "IE=EmulateIE10" == d && (a.version = "10.0"))
+                }
+            } else a.name = b.browser, a.version = b.version;
+        else a.name = "other", a.version = "0";
+        return a
+    }
+
+    function uaMatch() {
+        var a = navigator.userAgent.toLowerCase(),
+            b = null,
+            b = /.*(msie) ([\w.]+).*/.exec(a);
+        if (null != b) return {
+            browser: b[1] || "",
+            version: b[2] || "0"
+        };
+        b = /.*(chrome)\/([\w.]+).*/.exec(a);
+        if (null != b) return {
+            browser: b[1] || "",
+            version: b[2] || "0"
+        };
+        b = /.*version\/([\w.]+).*(safari).*/.exec(a);
+        if (null != b) return {
+            browser: b[2] || "",
+            version: b[1] || "0"
+        };
+        b = /.*(firefox)\/([\w.]+).*/.exec(a);
+        if (null != b) return {
+            browser: b[1] || "",
+            version: b[2] || "0"
+        };
+        b = /(opera).+version\/([\w.]+)/.exec(a);
+        if (null != b) return {
+            browser: b[1] || "",
+            version: b[2] || "0"
+        };
+        if (null == b) return {
+            browser: "",
+            version: "0"
+        }
+    };
+</script>
+<!-- 第三方提供的代码片段End -->
