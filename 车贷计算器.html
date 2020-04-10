@@ -1747,7 +1747,7 @@
         city = "北京",
         carPrice = 0,
         seatsSelect = 0,
-        allCostArr = [0, 0, 0],
+        allCostArr = [0, 0, 0], // [ 总计税费, 商业保险费 ]
         taxArr = [0, 0, 0, 0],
         insrArr = [0, 0, 0, 0, 0, 0, 0, 0, 0],
         gSpfy = 500,
@@ -1759,9 +1759,7 @@
         qcqdxJcBfArr = [102, 119],
         qcqdxFlArr = [0.00451, 0.00374],
         blddpsxFlArr0 = [0.00264, 0.00162],
-        blddpsxFlArr1 = [0.00272,
-            0.0017
-        ],
+        blddpsxFlArr1 = [0.00272, 0.0017],
         zrssxFl = 0.0015,
         cshhxBfArr0 = [400, 570, 760, 1140],
         cshhxBfArr1 = [585, 900, 1170, 1780],
@@ -2195,7 +2193,7 @@
         $("#insr_val").text("" + a);
         $("#insr_sum").text("" +
             a + "元");
-        return allCostArr[1] = a
+        return allCostArr[1] = a  // 商业保险费用
     }
 
     function insr_update() {
