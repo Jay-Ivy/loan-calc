@@ -1,4 +1,4 @@
-import * as MAPPER from './mapper.js'
+import * as MAPPER from './auto-mapper.js'
 
 /**
  * 全款买车计算
