@@ -13,7 +13,6 @@ export const houseLoanCalc = (comLoanAmount, comRate, comLoanMonth, resLoanAmoun
   if (loanType === 'debj') {
     comResult = averageCapital(comLoanAmount, comRate, comLoanMonth)
     resResult = averageCapital(resLoanAmount, resRate, resLoanMonth)
-    return result
   } else {
     comResult = averageInterest(comLoanAmount, comRate, comLoanMonth)
     resResult = averageInterest(resLoanAmount, resRate, resLoanMonth)

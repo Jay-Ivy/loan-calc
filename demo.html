@@ -1,0 +1,24 @@
+<script type="module">
+  import {fullPayCalc} from "./js/auto-loan.js"
+  import { averageInterest, averageCapital, houseLoanCalc } from "./js/house-loan.js"
+
+  // 车贷计算器
+  const autoResult = fullPayCalc(30000, 0, 0, 300, 0, 1, 0)
+  console.log('auto loan calc:', autoResult)
+
+  // 房贷计算器---等额本息
+  const houseDebx = averageInterest(100, 3.25, 240)
+  console.log('house loan debx calc', houseDebx)
+
+  // 房贷计算器---等额本金
+  const houseDebj = averageCapital(100, 4.9, 240)
+  console.log('house loan debj calc', houseDebj)
+
+  // 房贷计算器---组合贷款(等额本息)
+  const combHouseDebx = houseLoanCalc(100, 4.9, 240, 100, 3.25, 240, 'debx')
+  console.log('combinational house loan debx calc:', combHouseDebx)
+
+  // 房贷计算器---组合贷款(等额本金)
+  const combHouseDebj = houseLoanCalc(100, 4.9, 240, 100, 3.25, 240, 'debj')
+  console.log('combinational house loan debj calc:', combHouseDebj)
+</script>
